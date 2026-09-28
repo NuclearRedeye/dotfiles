@@ -4,7 +4,7 @@
 - Before any commit or push. Show me the proposed message(s) first.
 
 ## Never
-- Force-push, rebase shared branches, or amend commits that have been pushed,
+- Force-push, rebase shared branches or amend commits that have been pushed,
   unless I explicitly ask.
 - Commit secrets, `.env` files or local config. Warn me if one is staged.
 
@@ -68,7 +68,7 @@ Only trade readability for speed when performance is a stated requirement.
 - If you keep a simple but slow approach on purpose, mark it with `PERF:`
   and note what's slow.
 - If an optimisation makes code harder to read, isolate it, explain *why*
-  in a short comment, and link to the benchmark or ticket.
+  in a short comment and link to the benchmark or ticket.
 
 ## Capture debt as comments in code
 Mark deferred, broken or questionable code with tagged comments so a search

@@ -4,11 +4,11 @@
 Use UK spellings, e.g. `optimise` not `optimize`, `colour` not `color`,
 `behaviour` not `behavior`.
 
-- Applies to comments, docs, commit messages, and names you create
+- Applies to comments, docs, commit messages and names you create
   (variables, functions, files).
 - Never change spellings that must match external code: language keywords,
   library and framework APIs, CSS properties, config keys, database
-  columns, or existing public interfaces (e.g. `color`, `initialize()`).
+  columns or existing public interfaces (e.g. `color`, `initialize()`).
 - If a codebase already uses US spellings consistently, match it in code
   and keep UK spelling in prose only.
 
@@ -19,7 +19,7 @@ Be succinct: lead with the answer, keep detail light. I'll ask if I want more.
   closing recap or "let me know if…".
 - When recommending, give the best option, not a menu. Mention an
   alternative only if the trade-off is close.
-- Cut background I didn't ask for, explanations of basics, and hedging.
+- Cut background I didn't ask for, explanations of basics and hedging.
 - Never cut risks, errors, disagreements, assumptions that would change the
   answer, or anything I need to do next. Raise them briefly.
 - For changes to existing code or text, show only the change unless I ask.
