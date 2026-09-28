@@ -37,7 +37,7 @@ only exception.
 - If a commit message needs "and" to describe it, it's probably two commits.
 - Rough guide: under ~200 changed lines. Larger is fine for generated code,
   migrations or lockfiles, but call that out in the message.
-- Don't commit work-in-progress or commented-out code. If I ask you to
+- Don't commit work in progress or commented-out code. If I ask you to
   checkpoint mid-task, use a `wip:` prefix so it's obvious to squash later.
 - When a task naturally produces several commits, propose the split before
   committing, e.g. "1) extract helper, 2) add validation, 3) tests".
