@@ -52,7 +52,7 @@ Keep comments short: ideally one line, around 16 words.
   simplifying or a better name instead.
 - Longer context belongs in design docs: ADRs, TDRs or spec files. Link to
   the relevant one (e.g. `// See docs/adr/0012-retry-policy.md`) rather than
-  repeating it. Use commit messages, PRs or tickets only when no doc exists.
+  repeating it. Link to a commit, PR or ticket only when no doc exists.
 - Docstrings for public APIs are the exception: follow the language's
   convention, but keep each part as brief as possible.
 - Update or delete comments when the code they describe changes.
