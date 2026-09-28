@@ -1,7 +1,8 @@
 # Coding
 
 ## Ask first
-- Before any commit or push. Show me the proposed message(s) first.
+- Before any commit, push or PR. Show me the proposed message(s) or PR
+  description first.
 
 ## Never
 - Force-push, rebase shared branches or amend commits that have been pushed,
