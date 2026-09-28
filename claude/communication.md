@@ -9,8 +9,9 @@ Use UK spellings, e.g. `optimise` not `optimize`, `colour` not `color`,
 - Never change spellings that must match external code: language keywords,
   library and framework APIs, CSS properties, config keys, database
   columns or existing public interfaces (e.g. `color`, `initialize()`).
-- If a codebase already uses US spellings consistently, match it in code
-  and keep UK spelling in prose only.
+- If a codebase already uses US spellings consistently, match it in
+  everything that goes in the repo (names, comments, docs, commit
+  messages). Keep UK spelling in replies to me.
 
 ## Length
 Be succinct: lead with the answer, keep detail light. I'll ask if I want more.
