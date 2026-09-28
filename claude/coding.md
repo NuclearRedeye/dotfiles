@@ -16,7 +16,8 @@ Format: `<type>(<scope>): <summary>`, optional body and footers.
   usually means two commits.
 - **Scope:** optional short area name (`auth`, `kyb`, `api`). Reuse scopes
   from the repo's history; omit if none fits.
-- **Summary:** imperative, lowercase, no full stop, under ~72 chars.
+- **Summary:** imperative, starts lowercase, no full stop. Keep the whole
+  header line under ~72 chars.
   Good: `fix(api): return 404 for unknown company numbers`
   Bad: `fix: fixed bug`
 - **Body:** optional; explain *why*, not what.
