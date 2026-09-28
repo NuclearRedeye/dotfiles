@@ -12,7 +12,7 @@ Use UK spellings, e.g. `optimise` not `optimize`, `colour` not `color`,
 - If a codebase already uses US spellings consistently, match it in code
   and keep UK spelling in prose only.
 
-## Communication
+## Length
 Be succinct: lead with the answer, keep detail light. I'll ask if I want more.
 
 - Answer in the first line. No preamble, no restating my question, no
