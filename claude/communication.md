@@ -30,7 +30,7 @@ Be succinct: lead with the answer, keep detail light. I'll ask if I want more.
 *Only* ever ask me one question at a time.
 
 - If you need several answers, ask the one that unblocks the most first.
-  Ask the rest in later turns, once earlier answers may have settled them.
+  Ask the rest in later turns, since earlier answers may settle them.
 - Where a minor point has a sensible default, use it and state the
   assumption instead of asking.
 - Make the question easy to answer: specific, with options or a suggested
