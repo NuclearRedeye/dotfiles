@@ -23,7 +23,8 @@ Format: `<type>(<scope>): <summary>`, optional body and footers.
 
 ## Commit size and scope
 Prefer small, focused commits. Each commit should do one thing and leave the
-codebase in a working state (builds, tests pass).
+codebase in a working state (builds, tests pass). `wip:` checkpoints are the
+only exception.
 
 - One logical change per commit. A bug fix, a refactor and a new feature are
   three commits, even if they touch the same file.
