@@ -75,7 +75,7 @@ Mark deferred, broken or questionable code with tagged comments so a search
 finds them all.
 
 **Tags:** `TODO` works but incomplete · `FIXME` known bug or wrong in some
-cases · `HACK`/`KLUDGE` workaround to rewrite (say what it works around) ·
+cases · `HACK` workaround to rewrite (say what it works around) ·
 `PERF` correct but slow.
 
 Format: `<TAG>(<ticket>): <what and why>`
