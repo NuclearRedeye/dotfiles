@@ -1,10 +1,12 @@
 # Coding
 
-## Always ask first
+## Ask first
 - Before any commit or push. Show me the proposed message(s) first.
-- Never force-push, rebase shared branches, or amend commits that have been
-  pushed.
-- Never commit secrets, `.env` files or local config. Warn me if one is staged.
+
+## Never
+- Force-push, rebase shared branches, or amend commits that have been pushed,
+  unless I explicitly ask.
+- Commit secrets, `.env` files or local config. Warn me if one is staged.
 
 ## Commit messages use Conventional Commits standard
 Format: `<type>(<scope>): <summary>`, optional body and footers.
