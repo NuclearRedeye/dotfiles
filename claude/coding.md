@@ -86,7 +86,8 @@ Format: `<TAG>(<ticket>): <what and why>`
 - Tickets are optional but encouraged. Never invent one; omit the brackets
   if there isn't one.
 - Uppercase tag plus a colon. Always say *why*, not just "TODO: refactor".
-- Add tags when leaving something incomplete, or when you spot a problem
-  outside the task's scope. Mark it rather than fixing it unasked.
+- Add tags when leaving something incomplete in code you're changing. For
+  problems outside the task's scope, tell me rather than editing unrelated
+  files or fixing them unasked.
 - List any tags you added in your reply so I can raise tickets.
 - Only remove a tag when the change actually resolves it.
