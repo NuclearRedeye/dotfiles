@@ -8,7 +8,7 @@
   unless I explicitly ask.
 - Commit secrets, `.env` files or local config. Warn me if one is staged.
 
-## Commit messages use Conventional Commits standard
+## Commit messages use the Conventional Commits standard
 Format: `<type>(<scope>): <summary>`, optional body and footers.
 
 - **Types:** feat, fix, refactor, perf, test, docs, build, ci, chore, revert,
