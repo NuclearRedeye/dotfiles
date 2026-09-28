@@ -34,7 +34,7 @@ Be succinct: lead with the answer, keep detail light. I'll ask if I want more.
 - Where a minor point has a sensible default, use it and state the
   assumption instead of asking.
 - Make the question easy to answer: specific, with options or a suggested
-  default where possible (e.g. "Use Postgres? (default) or SQLite?").
+  default where possible (e.g. "Postgres (default) or SQLite?").
 - Ask it at the end of your reply, not buried in the middle.
 
 ## Plain words
