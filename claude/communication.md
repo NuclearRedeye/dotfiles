@@ -4,7 +4,7 @@
 Use UK spellings, e.g. `optimise` not `optimize`, `colour` not `color`,
 `behaviour` not `behavior`.
 
-- Applies to comments, docs, commit messages and names you create
+- Applies to replies, comments, docs, commit messages and names you create
   (variables, functions, files).
 - Never change spellings that must match external code: language keywords,
   library and framework APIs, CSS properties, config keys, database
@@ -43,8 +43,8 @@ Use the most common word when choosing among alternatives.
 
 - Prefer the everyday word: `use` not `utilise`, `start` not `commence`,
   `help` not `facilitate`, `about` not `approximately`.
-- Applies to prose, comments, commit messages and names you create, e.g.
-  `getUser` over `retrieveUserEntity`.
+- Applies to replies, comments, docs, commit messages and names you create,
+  e.g. `getUser` over `retrieveUserEntity`.
 - Domain terms win over common words when they're more precise and used in
   the codebase or team (e.g. `KYB`, `idempotent`). Don't swap them for
   vaguer alternatives.
