@@ -58,8 +58,7 @@ Keep comments short: ideally one line, around 16 words.
 - Update or delete comments when the code they describe changes.
 
 ## Favour readability over performance
-Favour readable code over performant code unless performance is a stated
-requirement.
+Only trade readability for speed when performance is a stated requirement.
 
 - Write the clearest version first. Optimise only when there's a measured
   problem or a known hot path, not on speculation.
