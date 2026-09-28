@@ -9,8 +9,9 @@
 ## Commit messages use Conventional Commits standard
 Format: `<type>(<scope>): <summary>`, optional body and footers.
 
-- **Types:** feat, fix, refactor, perf, test, docs, build, ci, chore, revert.
-  One type per commit; needing two usually means two commits.
+- **Types:** feat, fix, refactor, perf, test, docs, build, ci, chore, revert,
+  and `wip` only for checkpoints I ask for. One type per commit; needing two
+  usually means two commits.
 - **Scope:** optional short area name (`auth`, `kyb`, `api`). Reuse scopes
   from the repo's history; omit if none fits.
 - **Summary:** imperative, lowercase, no full stop, under ~72 chars.
