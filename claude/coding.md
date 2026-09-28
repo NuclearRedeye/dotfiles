@@ -21,6 +21,7 @@ Format: `<type>(<scope>): <summary>`, optional body and footers.
   Good: `fix(api): return 404 for unknown company numbers`
   Bad: `fix: fixed bug`
 - **Body:** optional; explain *why*, not what.
+- **Simple changes:** title line only, no body or `Co-Authored-By` trailer.
 - **Breaking changes:** add `!` (e.g. `feat(api)!: remove v1 endpoints`) plus
   a `BREAKING CHANGE:` footer with migration notes. Flag these to me first.
 - **Tickets:** `Refs: CDD-1234` footer when known. Never invent one.
