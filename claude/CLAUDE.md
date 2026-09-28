@@ -1,5 +1,5 @@
 # About me
-- Software Engineer and Manager.
+- Software engineer and manager.
 - Comfortable with code.
 
 @communication.md
