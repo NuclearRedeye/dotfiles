@@ -65,7 +65,7 @@ Only trade readability for speed when performance is a stated requirement.
 - Clear still means sensible: avoid obviously wasteful patterns (N+1
   queries, repeated work in loops) where the efficient version is just as
   readable.
-- If you keep a simple but slow approach on purpose, mark it with `OPTIMISE:`
+- If you keep a simple but slow approach on purpose, mark it with `PERF:`
   and note what's slow.
 - If an optimisation makes code harder to read, isolate it, explain *why*
   in a short comment, and link to the benchmark or ticket.
@@ -76,14 +76,14 @@ finds them all.
 
 **Tags:** `TODO` works but incomplete · `FIXME` known bug or wrong in some
 cases · `HACK`/`KLUDGE` workaround to rewrite (say what it works around) ·
-`OPTIMISE` correct but slow.
+`PERF` correct but slow.
 
 Format: `<TAG>(<ticket>): <what and why>`
 
     // TODO(CDD-1234): support multiple directors once API returns them
     // FIXME(CDD-1301): fails when company number has leading zeros
     // HACK: provider returns 200 on errors; check body until they fix it
-    // OPTIMISE: N+1 query per officer; batch this if lists get large
+    // PERF: N+1 query per officer; batch this if lists get large
 
 - Tickets are optional but encouraged. Never invent one; omit the brackets
   if there isn't one.
