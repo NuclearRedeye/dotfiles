@@ -17,3 +17,10 @@ install:
 		cp "$$f" "$$dest"; \
 		echo "installed $$dest"; \
 	done
+	@# Merge only statusLine so other local settings are kept
+	@set -e; settings="$(PREFIX)/.claude/settings.json"; \
+	[ -f "$$settings" ] || echo '{}' > "$$settings"; \
+	jq '.statusLine = {"type": "command", "command": "sh ~/.claude/scripts/statusline.sh"}' \
+		"$$settings" > "$$settings.tmp"; \
+	mv "$$settings.tmp" "$$settings"; \
+	echo "configured statusLine in $$settings"
