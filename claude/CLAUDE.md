@@ -4,3 +4,4 @@
 
 @communication.md
 @coding.md
+@glossary.md
