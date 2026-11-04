@@ -13,8 +13,9 @@
 Format: `<type>(<scope>): <summary>`, optional body and footers.
 
 - **Types:** `feat`, `fix`, `refactor`, `perf`, `test`, `docs`, `build`,
-  `ci`, `chore`, `revert` and `wip` (see below). One type per commit;
-  needing two usually means two commits.
+  `ci`, `chore`, `revert`, `wip` (see below) and `poc` (throwaway
+  prototype, not meant to merge). One type per commit; needing two usually
+  means two commits.
 - **Scope:** optional short area name (`auth`, `kyb`, `api`). Reuse scopes
   from the repo's history; omit if none fits.
 - **Summary:** imperative, starts lowercase, no full stop. Keep the whole
@@ -43,6 +44,19 @@ only exception.
   checkpoint mid-task, use a `wip:` prefix so it's obvious to squash later.
 - When a task naturally produces several commits, propose the split before
   committing, e.g. "1) extract helper, 2) add validation, 3) tests".
+
+## Worktrees
+Put worktrees beside the repo, never inside it: nested checkouts confuse
+watchers, linters and package managers in large monorepos.
+
+- Branch: `<type>/<ticket>-<slug>`, or `<type>/<slug>` when there's no
+  ticket. Type is a commit type from the list above. Write the slug from
+  the task in 2–4 kebab-case words, all lowercase. Never invent a ticket.
+- Directory: `../<repo>-<branch>`, with `/` replaced by `-`, e.g.
+  `../dotfiles-fix-112-do-some-cool-thing`.
+- State the names before creating; don't ask unless something's unclear.
+- Don't install dependencies. Remind me to `/cd` into the new worktree or
+  start a new Claude session there.
 
 ## Code comments
 Keep comments short: ideally one line, around 16 words.
