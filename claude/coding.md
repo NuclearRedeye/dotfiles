@@ -58,6 +58,16 @@ watchers, linters and package managers in large monorepos.
 - Don't install dependencies. Remind me to `/cd` into the new worktree or
   start a new Claude session there.
 
+## Record decisions as ADRs
+When we settle a decision, offer to record it as an ADR if it's all three:
+
+1. Hard to reverse: changing our minds later has a real cost.
+2. Surprising without context: a future reader would wonder why.
+3. The result of a real trade-off: there were genuine alternatives.
+
+Skip it if any is missing. Before writing one, read `~/.claude/rules/adr.md`
+for the format.
+
 ## Code comments
 Keep comments short: ideally one line, around 16 words.
 
