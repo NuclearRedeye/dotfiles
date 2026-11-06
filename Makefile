@@ -4,7 +4,7 @@ PACKAGES := $(patsubst %/,%,$(wildcard */))
 FILES := $(if $(PACKAGES),$(shell git ls-files $(PACKAGES)))
 UNTRACKED := $(if $(PACKAGES),$(shell git ls-files --others --exclude-standard $(PACKAGES)))
 SETTINGS := $(PREFIX)/.claude/settings.json
-STATUSLINE := {"type": "command", "command": "sh ~/.claude/scripts/statusline.sh"}
+STATUSLINE := {"type": "command", "command": "sh ~/.claude/scripts/statusline.sh", "refreshInterval": 10}
 
 .DEFAULT_GOAL := install
 .PHONY: install files settings
